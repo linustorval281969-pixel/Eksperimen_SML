@@ -10,7 +10,7 @@ on:
       - main
     paths:
       - 'diabetes_raw/diabetes.csv'
-      - 'preprocessing/automate_project.py.py'
+      - 'preprocessing/automate_project.py'
 
 jobs:
   preprocess:
@@ -38,7 +38,7 @@ jobs:
       
       # 4. Run preprocessing script
       - name: Run Preprocessing
-        run: python preprocessing/automate_Nama-siswa.py
+        run: python preprocessing/automate_project.py
       
       # 5. Commit and push preprocessed dataset
       - name: Commit & Push Processed Dataset
