@@ -10,7 +10,7 @@ on:
       - main
     paths:
       - 'diabetes_raw/diabetes.csv'
-      - 'preprocessing/automate_Nama-siswa.py'
+      - 'preprocessing/automate_project.py.py'
 
 jobs:
   preprocess:
