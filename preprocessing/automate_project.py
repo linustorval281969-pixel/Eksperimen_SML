@@ -16,21 +16,7 @@ import sys
 
 
 def preprocess_diabetes(raw_path: str, output_path: str) -> pd.DataFrame:
-    """
-    Fungsi otomatis preprocessing dataset Diabetes.
-    
-    Parameters:
-    -----------
-    raw_path : str
-        Path ke file dataset mentah (CSV)
-    output_path : str
-        Path untuk menyimpan dataset hasil preprocessing
-    
-    Returns:
-    --------
-    pd.DataFrame
-        DataFrame yang sudah siap digunakan untuk training model
-    """
+
     print(f"Memuat dataset dari: {raw_path}")
     
     
